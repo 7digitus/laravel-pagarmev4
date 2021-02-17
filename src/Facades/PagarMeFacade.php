@@ -1,6 +1,6 @@
 <?php
 
-namespace RogerArruda\LaravelPagarMe\Facades;
+namespace 7Digitus\LaravelPagarMe\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
