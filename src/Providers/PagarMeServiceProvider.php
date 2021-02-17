@@ -4,7 +4,7 @@ namespace digitus\LaravelPagarMeV4\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-use PagarMe\Sdk\PagarMe;
+use PagarMe\Client as PagarMe;
 
 class PagarMeServiceProvider extends ServiceProvider
 {
