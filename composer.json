@@ -13,17 +13,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "HubPlay\\LaravelPagarMe\\": "src/"
+            "7digitus\\LaravelPagarMe\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "HubPlay\\LaravelPagarMeV4\\Providers\\PagarMeServiceProvider"
+                "7digitus\\LaravelPagarMeV4\\Providers\\PagarMeServiceProvider"
             ],
             "aliases": {
-                "PagarMe": "HubPlay\\LaravelPagarMeV4\\Facades\\PagarMeFacade"
+                "PagarMe": "7digitus\\LaravelPagarMeV4\\Facades\\PagarMeFacade"
             }
         }
     }
