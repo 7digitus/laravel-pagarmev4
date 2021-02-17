@@ -1,5 +1,5 @@
 {
-    "name": "7digitus/laravel-pagarmev4",
+    "name": "HubPlay/laravel-pagarmev4",
     "description": "Teste Pagarmev4",
     "type": "library",
     "require": {
@@ -8,22 +8,22 @@
     },
     "authors": [
         {
-            "name": "7digitus"
+            "name": "HubPlay"
         }
     ],
     "autoload": {
         "psr-4": {
-            "7Digitus\\LaravelPagarMe\\": "src/"
+            "HubPlay\\LaravelPagarMe\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "7digitus\\LaravelPagarMeV4\\Providers\\PagarMeServiceProvider"
+                "HubPlay\\LaravelPagarMeV4\\Providers\\PagarMeServiceProvider"
             ],
             "aliases": {
-                "PagarMe": "7digitus\\LaravelPagarMeV4\\Facades\\PagarMeFacade"
+                "PagarMe": "HubPlay\\LaravelPagarMeV4\\Facades\\PagarMeFacade"
             }
         }
     }
