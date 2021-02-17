@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "7digitus\\LaravelPagarMeV4\\": "src/"
+            "digitus\\LaravelPagarMeV4\\": "src/"
         }
     },
     "minimum-stability": "dev",
