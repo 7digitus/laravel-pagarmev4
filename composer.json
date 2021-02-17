@@ -1,6 +1,6 @@
 {
-    "name": "7digitus/laravel-pagarme",
-    "description": "Integração da API PHP PagarMe com o Laravel",
+    "name": "7digitus/laravel-pagarmev4",
+    "description": "Teste Pagarmev4",
     "type": "library",
     "require": {
         "php": "^7.0.0",
