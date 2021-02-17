@@ -20,10 +20,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "7digitus\\LaravelPagarMeV4\\Providers\\PagarMeServiceProvider"
+                "digitus\\LaravelPagarMeV4\\Providers\\PagarMeServiceProvider"
             ],
             "aliases": {
-                "PagarMe": "7digitus\\LaravelPagarMeV4\\Facades\\PagarMeFacade"
+                "PagarMe": "digitus\\LaravelPagarMeV4\\Facades\\PagarMeFacade"
             }
         }
     }
