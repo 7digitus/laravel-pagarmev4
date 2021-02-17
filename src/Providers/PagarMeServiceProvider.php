@@ -1,6 +1,6 @@
 <?php
 
-namespace 7digitus\LaravelPagarMeV4\Providers;
+namespace digitus\LaravelPagarMeV4\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
