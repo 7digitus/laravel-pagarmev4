@@ -11,7 +11,7 @@ Para começar, instale via composer no seu terminal
 
 Após a instalação, publique o arquivo de configuração executando o comando a seguir
 
-`php artisan vendor:publish --provider=7digitus\LaravelPagarMeV4\Providers\PagarMeServiceProvider`
+`php artisan vendor:publish --provider=digitus\LaravelPagarMeV4\Providers\PagarMeServiceProvider`
 
 Assim você pode adicionar em seu `.env` as seguintes linhas ou configurar diretamente no arquivo `config/pagarme.php`
 
@@ -25,6 +25,17 @@ Você pode pegar a API KEY e ENCRYPTION KEY aqui https://dashboard.pagar.me/#/my
 
 O uso da API segue a documentação oficial do Pagar.me, que pode ser consultada aqui https://github.com/pagarme/pagarme-php/wiki
 
+
+    use digitus\LaravelPagarMeV4\Facades\PagarMeFacade as PagarMe;
+
+    $createCard = PagarMe::cards()->create([
+        'holder_name' => 'name',
+        'number' => 'number',
+        'expiration_date' => 'ex_date',
+        'cvv' => '123'
+    ]);
+    
+    
  
     Requisição de todos os planos cadastrados
     $plans = PagarMe::plans()->getList();
