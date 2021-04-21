@@ -1,7 +1,7 @@
-# Laravel PagarMe
+# Laravel PagarMe - 2021 (Funcionando 100%)
 Integração da API PHP PagarMe com o Laravel
 
-O Laravel PagarMe consome a API PHP fornecida pela equipe do Pagar.me de forma mais simples e rápida.
+O Laravel PagarMe - 2021 consome a API PHP fornecida pela equipe do Pagar.me de forma mais simples e rápida.
 
 **Configuração**
 
