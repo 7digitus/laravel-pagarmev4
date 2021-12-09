@@ -3,7 +3,7 @@
     "description": "Teste Pagarmev4",
     "type": "library",
     "require": {
-        "php": ">=7.0.0",
+        "php": "^7.0.0|^8.0",
         "pagarme/pagarme-php": "^4.1.2"
     },
     "authors": [
